@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "UAO LABS",
+        "categoria": "Académico",
+        "imagen": "public/images/NOTA-UAO-LABS.png",
+        "galeria": [
+            "public/images/labs1.jpg", 
+            "public/images/labs2.jpg",
+            "public/images/labs3.jpg"
+        ],
+        "audio": "public/audio/Audio ambiente UAOLABS.ogg",
+        "video": "public/video/uao labs video.mp4",
+        "descripcion_corta": "Espacio de innovación y tecnología.",
+        "descripcion_larga": "Los laboratorios de la UAO son el epicentro del desarrollo tecnológico. Aquí se fusiona el sonido de las impresoras 3D con la creatividad estudiantil y el aprendizaje práctico."
+    },
+    {
+        "id": 2,
+        "nombre": "CRAI",
+        "categoria": "Académico",
+        "imagen": "public/images/CRAI.jpg",
+        "galeria": [
+            "public/images/MUSICA-CRAI.jpg",
+            "public/images/biblioteca.jpg"
+        ],
+        "audio": "public/audio/Audio Ambiente CRAI.ogg",
+        "video": "public/video/crai video.mp4",
+        "descripcion_corta": "El corazón del conocimiento.",
+        "descripcion_larga": "Descripción larga del lugar con muchas palabras y contenido significativo para este apartado :3"
+    }
+    
+]
