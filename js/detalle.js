@@ -25,14 +25,25 @@ document.addEventListener('DOMContentLoaded', async () => {
 function renderizarDetalle(zona) {
     const contenedor = document.getElementById('detalle-contenido');
     
-    
-    let galeriaHTML = zona.galeria.map(foto => `
-        <div class="col-6 col-md-4 col-lg-3">
-            <div class="gallery-item shadow-sm">
-                <img src="${foto}" alt="Imagen de ${zona.nombre}" class="img-fluid rounded-4">
-            </div>
-        </div>
-    `).join('');
+    let galeriaHTML = zona.galeria.map(item => {
+        if (item.tipo === 'imagen') {
+            return `
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item shadow-sm" onclick="abrirLightbox('${item.src}', 'imagen')">
+                        <img src="${item.src}" alt="Imagen" class="img-fluid rounded-4">
+                        <div class="gallery-overlay"><i data-feather="maximize"></i></div>
+                    </div>
+                </div>`;
+        } else {
+            return `
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item shadow-sm video-thumb" onclick="abrirLightbox('${item.src}', 'video')">
+                        <video src="${item.src}" class="img-fluid rounded-4"></video>
+                        <div class="gallery-overlay"><i data-feather="play-circle"></i></div>
+                    </div>
+                </div>`;
+        }
+    }).join('');
 
     contenedor.innerHTML = `
         <section class="row g-5 align-items-center mb-5 pb-5">
@@ -82,7 +93,7 @@ function renderizarDetalle(zona) {
         </section>
 
         <section class="py-5">
-            <h2 class="fw-bold mb-5">Galería Fotográfica</h2>
+            <h2 class="fw-bold mb-5">Exploración Multimedia</h2>
             <div class="row g-4">${galeriaHTML}</div>
         </section>
     `;
@@ -154,4 +165,31 @@ function formatTime(seconds) {
     const min = Math.floor(seconds / 60);
     const sec = Math.floor(seconds % 60);
     return `${min}:${sec < 10 ? '0' + sec : sec}`;
+}
+
+
+
+function abrirLightbox(src, tipo) {
+    const lightbox = document.getElementById('lightbox');
+    const mediaContainer = document.getElementById('lightbox-media');
+    
+    lightbox.style.display = 'flex';
+    
+    if (tipo === 'imagen') {
+        
+        mediaContainer.innerHTML = `<img src="${src}" class="animate__animated animate__zoomIn">`;
+    } else {
+        mediaContainer.innerHTML = `
+            <video src="${src}" controls autoplay class="animate__animated animate__zoomIn">
+                Tu navegador no soporta video.
+            </video>`;
+    }
+}
+
+function cerrarLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    const mediaContainer = document.getElementById('lightbox-media');
+    
+    mediaContainer.innerHTML = '';
+    lightbox.style.display = 'none';
 }

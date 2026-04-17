@@ -5,14 +5,135 @@
         "categoria": "Académico",
         "imagen": "public/images/NOTA-UAO-LABS.png",
         "galeria": [
-            "public/images/labs1.jpg", 
-            "public/images/labs2.jpg",
-            "public/images/labs3.jpg"
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2161.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2164.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2165.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2166.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2167.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2168.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2169.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2170.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2171.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2172.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2174.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2175.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2176.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2177.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2178.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2179.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG_2180.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102254.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102313.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102358.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102433.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102706.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102723.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102741.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413102841.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413103043.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413103110.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413103141.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413103235.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/labs/IMG20260413103318.jpg"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/uao labs video.mp4"
+            }
         ],
         "audio": "public/audio/Audio ambiente UAOLABS.ogg",
-        "video": "public/video/uao labs video.mp4",
-        "descripcion_corta": "Espacio de innovación y tecnología.",
-        "descripcion_larga": "Los laboratorios de la UAO son el epicentro del desarrollo tecnológico. Aquí se fusiona el sonido de las impresoras 3D con la creatividad estudiantil y el aprendizaje práctico."
+        "video": "public/video/labs.mp4",
+        "descripcion_corta": "Espacio de innovación y tecnología ubicado en sótanos 1 y sótanos 2.",
+        "descripcion_larga": "Los laboratorios de la UAO son el epicentro del desarrollo tecnológico. Aquí se fusiona el sonido de las impresoras 3D con la creatividad estudiantil y el aprendizaje práctico. Se consideran a los laboratorios como uno de los escenarios más significativos para el trabajo académico; esta área cuenta on una infraestructura de 5.840 metros cuadrados distribuidos en 78 laboratorios con personal altamente capacitado y tecnología de punta de los cuales el 43 por ciento posibilitan el aprendizaje, la academia, el desarrollo, la innovación y trabajo investigativo por ser mixtos o dedicados a la investigación."
     },
     {
         "id": 2,
@@ -20,13 +141,342 @@
         "categoria": "Académico",
         "imagen": "public/images/CRAI.jpg",
         "galeria": [
-            "public/images/MUSICA-CRAI.jpg",
-            "public/images/biblioteca.jpg"
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2135.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2136.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2137.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2138.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2139.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2140.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2141.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2142.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2143.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2144.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2145.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2146.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2147.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2148.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2149.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2150.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG_2151.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103547.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103621.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103636.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103641.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103731.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103759.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103804.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103823.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103831.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103841.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103915.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103947.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413103956.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/crai/IMG20260413104106.jpg"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/crai/VID20260413103454.mp4"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/crai/VID20260413103506.mp4"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/crai/VID20260413103752.mp4"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/crai/VID20260413104001.mp4"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/crai/VID20260413104056.mp4"
+            }
         ],
         "audio": "public/audio/Audio Ambiente CRAI.ogg",
         "video": "public/video/crai video.mp4",
-        "descripcion_corta": "El corazón del conocimiento.",
-        "descripcion_larga": "Descripción larga del lugar con muchas palabras y contenido significativo para este apartado :3"
+        "descripcion_corta": "El corazón del conocimiento. Se encuentra al lado derecho de la entrada principal y cerca del puesto de D'CAFE.",
+        "descripcion_larga": "La UAO cuenta con un Centro de Recursos para el Aprendizaje y la Investigación, CRAI, también conocido como la biblioteca de la Universidad. El CRAI cuenta con bases de datos y recursos electrónicos con información actualizada, respaldada y veraz. Las colecciones digitales contienen: Más de 15.000 revistas indexadas, más de 110.000 libros electrónicos de las editoriales más importantes del mundo, Películas colombianas en ‘streaming. Entre sus recursos disponibles encontrarás los siguientes: Repositario Educativo Digital RED, Bases de datos académicas, Literatura Libby, Revistas hemeroteca y recursos en Acceso Abierto."
+    },
+    {
+        "id": 3,
+        "nombre": "CAFETERÍAS",
+        "categoria": "Social",
+        "imagen": "public/images/cafeteria/IMG20260413105530.jpg",
+        "galeria": [
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105414.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105449.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105456.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105519.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105530.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105613.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105618.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105651.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105703.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105734.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/cafeteria/IMG20260413105857.jpg"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/cafeteria/cafeteria video.mp4"
+            }
+        ],
+        "audio": "public/audio/Audio ambiente cafeteria.ogg",
+        "video": "public/video/cafeteria/caf.mp4",
+        "descripcion_corta": "Se encuentran los diferentes puestos de comida",
+        "descripcion_larga": "En la cafetería de la UAO se pueden encontrar diferentes locales de comida y sus diferentes variedades, encuentra adjuntos los almuerzos ejecutivo, gourmet, especial y otras opciones para tu menú a diario, en Escaladas Café se podrán encontrar grandes clases de almuerzos, junto con otras comidas como hamburguesas o postres, otros negocios como Green Point ofrecen frutas, ensaladas, postres u otros. Inajar puede ofrecer sandwiches, jugos, helado. En otros puestos se encuentran D'CAFE, Caffesabor, Petete's..."
+    },
+    {
+        "id": 4,
+        "nombre": "Tienda UAO",
+        "categoria": "Tiendas",
+        "imagen": "public/images/tienda/IMG20260413104833.jpg",
+        "galeria": [
+            {
+                "tipo": "imagen",
+                "src": "public/images/tienda/IMG20260413104712.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/tienda/IMG20260413104833.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/tienda/IMG20260413104939.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/tienda/IMG20260413104947.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/tienda/IMG20260413105010.jpg"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/tienda/tienda uao video.mp4"
+            }
+        ],
+        "audio": "public/audio/Audio Ambiente CRAI.ogg",
+        "video": "public/video/tienda/VID20260413104657.mp4",
+        "descripcion_corta": "Tienda mixta con dulces, comida y útiles escolares",
+        "descripcion_larga": "Ubicada cerca del área de Bienestar frente a una zona verde acogedora, es un lugar práctico y fresco donde se pueden encontrar diferentes tipos de cosas, en la parte de comida con snacks, golosinas, helados, útiles escolares como cuadernos, lápices, pegamentos o calculadoras... Y además de ciertos complementos electrónicos, como audífinos, memorias USB; encuentras implementos con la marca de la misma universidad como termos, sacos, sombrillas, etc. Aquí también se gestiona la venta de los libros de inglés para los estudiantes que lo requiran."
+    },
+    {
+        "id": 5,
+        "nombre": "Bienestar universitario",
+        "categoria": "Social",
+        "imagen": "public/images/bienestar/IMG20260413105139.jpg",
+        "galeria": [
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105102.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105111.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105118.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105139.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105153.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105221.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105232.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105238.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105248.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105343.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105355.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105358.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105424.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105618.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105623.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105628.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105946.jpg"
+            },
+            {
+                "tipo": "imagen",
+                "src": "public/images/bienestar/IMG20260413105953.jpg"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/bienestar/bienestar video 1.mp4"
+            },
+            {
+                "tipo": "video",
+                "src": "public/video/bienestar/bienestar video 2.mp4"
+            }
+        ],
+        "audio": "public/audio/Audio ambiente Bienestar.ogg",
+        "video": "public/video/bienestar/VID20260413105053~3.mp4",
+        "descripcion_corta": "Edificios ubicados cerca de la zona de cafetería, donde se podrán encontrar todo tipo de programas para apoyo del estudiante",
+        "descripcion_larga": "Bienestar UAO cuenta con diferentes actividades, talleres y programas orientados al desarrollo físico, social y cultural para la comunidad autónoma. El bienestar en la Universidad Autónoma de Occidente, acompaña las funciones sustantivas de docencia, investigación y proyección social y se orienta al desarrollo humano y social de la Comunidad Universitaria. Se pueden encontrar diferentes programas de apoyo al estudiante como CASA, CEA, Cultura, Deporte, Desarrollo Humano, Dirección de bienestar y UGB."
     }
-    
 ]
