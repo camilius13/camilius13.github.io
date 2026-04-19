@@ -309,7 +309,7 @@ video {
     box-shadow: 0 5px 15px rgba(255, 5, 30, 0.3);
 }
 
-/* Barra de progreso */
+
 .player-controls {
     flex-grow: 1;
 }
@@ -337,5 +337,110 @@ video {
     font-size: 0.75rem;
     font-weight: 700;
     color: var(--uao-gray);
+}
+
+
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); 
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+}
+
+
+.lightbox-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+#lightbox-media img, 
+#lightbox-media video {
+    max-width: 90vw;   
+    max-height: 85vh;  
+    width: auto;       
+    height: auto;      
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    object-fit: contain; 
+}
+
+
+.cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10001;
+    transition: transform 0.3s;
+}
+
+.cerrar:hover {
+    transform: scale(1.2);
+    color: #FF051E; /* Color rojo UAO al pasar el mouse */
+}
+
+
+.gallery-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 5, 30, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.video-thumb video {
+    pointer-events: none;
+    object-fit: cover;
+    height: 100%; width: 100%;
+}
+
+
+.gallery-item.video-thumb {
+    border: 2px solid rgba(255, 5, 30, 0.3);
+}
+
+.gallery-item.video-thumb::after {
+    content: 'VIDEO';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #FF051E;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 4px;
+    z-index: 2;
 }
 
